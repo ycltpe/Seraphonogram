@@ -13,6 +13,7 @@ const now = new Date().getFullYear()
 
 // https://vitepress.dev/zh/reference/site-config
 const configs: UserConfig<DefaultTheme.Config> = {
+    base: '/Seraphonogram/',
     lang: 'zh-CN',
     title: 'Seraphonogram',
     description: '羽音博客',
